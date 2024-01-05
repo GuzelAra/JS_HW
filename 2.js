@@ -10,5 +10,5 @@
 // Здесь пишем решение, данный комментарий необходимо стереть..
 
 const myName = 'Guzel';
-const admin = my_name;
+const admin = myName;
 console.log(admin);
