@@ -9,6 +9,6 @@
 
 // Здесь пишем решение, данный комментарий необходимо стереть..
 
-const my_name = 'Guzel';
+const myName = 'Guzel';
 const admin = my_name;
 console.log(admin);
