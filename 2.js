@@ -10,10 +10,10 @@
 */
 
 const salary = Number(prompt("Введите число"));
-isNaN(salary) ? console.log("Значение задано неверно") : calcSalary();
+Number.isNaN(salary) ? console.log("Значение задано неверно") : calcSalary(salary);
 
-function calcSalary() {
+function calcSalary(a) {
   console.log(
-    `Размер заработной платы за вычетом налогов равен ${salary * 0.87}`
+    `Размер заработной платы за вычетом налогов равен ${a * 0.87}`
   );
 }
