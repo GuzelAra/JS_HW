@@ -25,10 +25,9 @@ function calcSum(a, b) {
 function calcDiff(a, b) {
   if (a >= b) {
     return a - b;
-  } else {
+  } 
     return b - a;
   }
-}
 
 function calcMultipl(a, b) {
   return a * b;
@@ -42,3 +41,4 @@ console.log(calcSum(2, 6));
 console.log(calcDiff(4, 4));
 console.log(calcMultipl(2, 6));
 console.log(calcDivis(2, 6));
+
