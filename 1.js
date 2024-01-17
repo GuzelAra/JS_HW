@@ -7,9 +7,8 @@
 который получаем от функции, в консоль.
 */
 
-function calcCube() {
-  const number = Number(prompt("Введите число"));
-  console.log(number ** 3);
+function calcCube(a) {
+  console.log(a ** 3);
 }
 
-calcCube();
+calcCube(3);
